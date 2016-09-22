@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="firstAngularApp">
     <head>
         <meta charset="utf-8">
+        <script type="text/javascript" src="angular.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
         <title>Coursera-AngularJS</title>
     </head>
-    <body>
-        <h1>Coursera-AngularJS</h1>
+    <body ng-controller="FirstController">
+        <h1>Coursera-AngularJS {{name}}</h1>
     </body>
 </html>
